@@ -1,0 +1,193 @@
+.App {
+  display: inline-block;
+  background: grey;
+  margin: 20px 20% 0;
+  padding: 16px;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+.Form-wrapper {
+  display: inline-block;
+  background: white;
+  margin: 24px 10px 0;
+  padding: 16px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.Title-Notes {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #312330;
+}
+
+.TitleNotes {
+  height: 75px;
+  resize: none;
+  width: 100%;
+  margin: 0 0 5px;
+  padding: 7px 0;
+  border: none;
+  border-bottom: 1px solid #3d5866;
+}
+
+.Notes {
+  width: 100%;
+  margin: 0 0 5px;
+  padding: 7px 0;
+  border: none;
+  border-bottom: 1px solid #3d5866;
+}
+/* 
+.Example-Modal {
+  /* top:  50%;
+  left: 50%;
+  right: auto;
+  bottom: auto; */
+  /* margin-right: -50%;
+  transform: translate(-50%, -50%); */
+/* } */ 
+
+.Submit-Button {
+  cursor: pointer;
+  border: none;
+  margin-left: 5px;
+  float: right;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #3d5866;
+  background-color: #eff3f6;
+}
+
+.Submit-Button:hover {
+  cursor: pointer;
+  background-color: #85a7bb;
+}
+.Note-Wrapper {
+  display: inline-block;
+  background: white;
+  margin: 30px 50px 0;
+  padding: 19px;
+  width: 260px;
+  height: 150px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 10px, rgba(0, 0, 0, 0.09) 0px 1px 2px;
+}
+
+.Note-Wrapper:hover{
+  background: whitesmoke;
+}
+
+.Date-Note {
+  padding: 10px 10px 15px 10px;
+  font-family: "poppins";
+  font-size: smaller;
+  font-weight: bold;
+  color: #768591;
+}
+
+.Status-Note {
+  padding-left: 10px;
+  font-family: "poppins";
+  font-size: medium;
+}
+.Delete-Wrapper,
+.Edit-Wrapper {
+  cursor: pointer;
+  border: none;
+  float: right;
+  padding: 5px 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #3d5866;
+}
+
+
+.Delete-Button, .Edit-Button {
+  cursor: pointer;
+  border: none;
+  margin-left: 5px;
+  float: right;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #192328;
+  background-color: #7e797a75;
+}
+
+.Delete-Button:hover, .Edit-Button:hover {
+  cursor: pointer;
+  background-color: #85a7bb;
+}
+
+
+.Close-Button {
+  cursor: pointer;
+  border: none;
+  float: inline-end;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #192328;
+  background-color: #7e797a75;
+}
+
+.Update-Button {
+  cursor: pointer;
+  border: none;
+  margin-left: 20%;
+  margin-right: 10px;
+  float: inline-end;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #192328;
+  background-color: #7e797a75;
+}
+.Close-Button:hover {
+  cursor: pointer;
+  background-color: #85a7bb;
+}
+
+.Update-Button:hover {
+  cursor: pointer;
+  background-color: #85a7bb;
+}
+
+
+.Note-Modal-Wrapper {
+  display: grid;
+  display: inline-block;
+  flex-wrap: nowrap;
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+  border : none;
+  background: white;
+  position: relative;
+  border-radius: 15px;
+  transition: box-shadow 0.25s;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 10px, rgba(0, 0, 0, 0.09) 0px 1px 2px;
+}
+
+.Status-Edit-Note {
+  align-self: center;
+  margin: 10px 0 0 10px;
+  padding: 10px 20px 70px 20px;
+  width: 220px;
+  height: 80px;
+  border: none;
+  background: #7e797a30;
+  border-radius: 7px;
+  font-family: "Poppins";
+  resize: none;
+  overflow: hidden;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
